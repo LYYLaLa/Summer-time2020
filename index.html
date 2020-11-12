@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+</head>
+<body>
+    <form method ='POST'>
+        <table width="1000">
+            <!-- 第一行 姓名-->
+            <p>
+                <tr>
+                <label for="admin_n"><td>姓名：</td></label> 
+                <td> <input type="text" id="admin_n" name="admin_n" ></td>   
+                </tr>
+           </p>
+             <!-- 第二行 用户名 -->
+            <p>
+                 <tr>
+                <label for="a_Name"><td>用户名：</td></label>
+                <td><input type="text" id="a_Name" name="a_Name" ></td>
+                </tr>
+            </p>
+           <!-- 第三行 性别-->
+         <!-- <tr>
+             <td>性别：</td>
+             <td>
+                 <input type="radio" name="sex" id="nan"><label for="nan">男</label>
+                 <input type="radio" name="sex" id="nv"><label for="nv">女</label>
+             </td> 
+         </tr>-->
+            <!-- 第四行 生日 -->
+       <!--<tr>
+             <td>生日：</td>
+             <td>
+                 <select>
+                     <option>请选择年份</option>
+                     <option >1999</option>
+                     <option >2000</option>
+                     <option >2001</option>
+                 </select>
+                 <select>
+                    <option>请选择月份</option>
+                    <option >1</option>
+                    <option >2</option>
+                    <option >3</option>
+                </select>
+                <select>
+                    <option>请选择日</option>
+                    <option >1</option>
+                    <option >2</option>
+                    <option >3</option>
+                </select>
+             </td>
+         </tr>-->  
+             <!-- 第五行 用户密码-->
+            <p>
+                 <tr>
+                 <label for="a_Pw"><td> 用户密码：</td></label>
+                 <td><input type="passport" id="a_Pw" name="a_Pw" ></td>
+                 </tr>
+            </p>
+             <!-- 第六行 联系方式-->
+            <p>
+                 <tr>
+                 <label for="a_Tel"><td>联系方式:</td></label>
+                 <td><input type="text" id="a_Tel" name="a_Tel" ></td>
+                 </tr>
+            </p>
+            <!-- 第七行 获得验证码 -->
+                 <tr>
+                 <td></td>
+                 <td><input type="button" value="获得验证码"></td>
+                 </tr>
+            <!-- 第八行 邮箱-->
+            <p>
+                 <tr>
+                 <label for="a_Email"><td>邮箱：</td></label>
+                 <td><input type="text" id="a_Email" name="a_Email" ></td> 
+                 </tr>
+            </p> 
+            <!-- 第九行 管理权限 -->
+            <p>
+                 <tr>
+                 <lable for="a_Limit"><td>管理权限：</td></lable>
+                 <td>root<input type="checkbox" value="root" id="a_Limit" name="a_Limit" ></td>
+                 </tr>
+            </p>
+            <!-- 第十行 注册按钮 -->
+                 <tr>
+                 <td></td>
+                 <td><input type="submit" value="注册"></td>
+                 </tr>
+        </table>
+    </form>
+</body>
+</html>
